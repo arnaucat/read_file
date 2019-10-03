@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(void) {
-    FILE *fp = fopen("lorem.txt", "r");
+    FILE *fp = fopen("quijote.txt", "r");
     if(fp == NULL) {
         perror("Unable to open file!");
         exit(1);
